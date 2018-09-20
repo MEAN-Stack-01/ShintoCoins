@@ -1,0 +1,13 @@
+<h3><span style="font-style: italic;color:red"> Sell ShintoCoins! </span></h3>
+<h4> Current ShintoCoin Value: {{ShintoCoinValue}}</h4>
+<h4> Number of ShintoCoins Owned: {{NumberOfCoins}}</h4>
+
+
+<form (submit)="onSubmit()">
+  {{answer | json}}
+
+  <div class="form-group">
+    <input type="text" class="form-control" id="question" name="number" [(ngModel)]="number">
+  </div>
+  <button type="submit" class="btn btn-primary mb-2">Sell</button>
+</form>

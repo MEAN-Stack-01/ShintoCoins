@@ -1,0 +1,21 @@
+h3,h4{
+  font-size: 2.0em;
+}
+
+.btn{
+  margin-left: 5em;
+  margin-top: 2em;
+  width: 150px;
+  padding: 1.5em;
+  color: white;
+  background: linear-gradient(to right, #333333, #dd1818);
+  border-radius: 5px;;
+}
+
+input{
+  margin-left: 5em;
+  width: 500px;
+  height: 45px;
+  border : 1px solid black;
+  border-radius: 8px;
+}
